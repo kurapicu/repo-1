@@ -11,18 +11,13 @@ public class Main {
         System.out.println("Which operator");
         String operator = o.nextLine();
         System.out.println("calculating...");
-        if (operator.equals("+")){
-            System.out.println(firstDIGIT + secondDIGIT);
+        switch (operator) {
+            case "+" -> System.out.println(firstDIGIT + secondDIGIT);
+            case "-" -> System.out.println(firstDIGIT - secondDIGIT);
+            case "/" -> System.out.println(firstDIGIT / secondDIGIT);
+            default -> System.out.println("Wrong");
         }
-        else if(operator.equals("-")){
-            System.out.println(firstDIGIT - secondDIGIT);
-        }
-        else if(operator.equals("/")){
-            System.out.println(firstDIGIT / secondDIGIT);
-        }
-        else {
-            System.out.println("Wrong");
-        }k
+
 
     }
 }
