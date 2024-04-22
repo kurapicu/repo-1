@@ -15,7 +15,7 @@ public class Main {
             case "+" -> System.out.println(firstDIGIT + secondDIGIT);
             case "-" -> System.out.println(firstDIGIT - secondDIGIT);
             case "/" -> System.out.println(firstDIGIT / secondDIGIT);
-            default -> System.out.println("Wrong");
+            default -> System.out.println("Wrongs");
         }
 
 
